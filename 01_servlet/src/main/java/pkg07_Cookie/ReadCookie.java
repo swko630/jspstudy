@@ -30,8 +30,8 @@ public class ReadCookie extends HttpServlet {
 	  out.println("<title>Insert title here</title>");
 	  out.println("</head>");
 	  out.println("<body>");
-	 // 쿠키 확인하기
-	  if(cookies != null) {
+	    // 쿠키 확인하기
+	   if(cookies != null) {
 	    
 	    // 쿠키 정보
 	    String cookieName = null;
