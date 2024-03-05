@@ -29,6 +29,7 @@ public class DataBind extends HttpServlet {
      * 2. getAttribute(속성)     : Object 타입의 값을 반환한다. (캐스팅이 필요할 수 있다.)
      * 3. removeAttribute(속성)  : 제거한다.
      */
+	  
     
 	  ServletContext servletContext = request.getServletContext();
 	  servletContext.setAttribute("a", "전체방문자수");
